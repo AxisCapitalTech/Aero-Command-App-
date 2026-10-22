@@ -1,0 +1,31 @@
+/* PR1 AERO nativo — identidade PR1 News (#003087 / #E30613 / branco), mobile first. */
+.pr1-aero-app{background:#fff;border:1px solid #d8deea;border-radius:10px;padding:12px;margin:16px 0}
+.pr1-aero-watch,.pr1-aero-tabs,.pr1-aero-layers{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px}
+.pr1-aero-watch button,.pr1-aero-tabs button,.pr1-aero-layers button,.pr1-aero-buttons button{min-height:44px;padding:8px 14px;border:2px solid #003087;border-radius:999px;background:#fff;color:#003087;font-weight:700;cursor:pointer}
+.pr1-aero-watch button[aria-pressed=true],.pr1-aero-tabs button[aria-selected=true],.pr1-aero-layers button[aria-pressed=true],.pr1-aero-buttons button[aria-pressed=true]{background:#003087;color:#fff}
+.pr1-aero-tabs{border-bottom:3px solid #E30613;padding-bottom:8px;overflow-x:auto;flex-wrap:nowrap}
+.pr1-aero-tabs button{flex:0 0 auto;border-radius:6px}
+.pr1-aero-watch button:focus-visible,.pr1-aero-tabs button:focus-visible,.pr1-aero-layers :focus-visible{outline:3px solid #E30613;outline-offset:2px}
+.pr1-aero-layers label{display:flex;align-items:center;gap:6px;min-height:44px;font-weight:600}
+.pr1-aero-panel-head{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.pr1-aero-panel-head h2{margin:.3em 0;color:#003087}
+.pr1-aero-badge{font:800 12px/1 system-ui,sans-serif;letter-spacing:.06em;padding:6px 10px;border-radius:4px;background:#6b7280;color:#fff}
+.pr1-aero-badge[data-state=live]{background:#0a7d33}
+.pr1-aero-badge[data-state=stale]{background:#b45309}
+.pr1-aero-badge[data-state=unavailable]{background:#4b5563}
+.pr1-aero-map{height:min(62vh,520px);min-height:320px;border-radius:8px;border:1px solid #c7cfdf;background:#eef2f8}
+.pr1-aero-meta{font-size:.85rem;color:#4b5563;margin:.5em 0}
+.pr1-aero-now-main{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.pr1-aero-now-main strong{font-size:2.4rem;color:#003087}
+.pr1-aero-now-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:6px 12px;margin:8px 0}
+.pr1-aero-now-grid dt{font-size:.8rem;color:#4b5563}.pr1-aero-now-grid dd{margin:0;font-weight:700}
+.pr1-aero-periods{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}
+.pr1-aero-period{border:1px solid #d8deea;border-top:4px solid #003087;border-radius:6px;padding:8px}
+.pr1-aero-period h3{font-size:.95rem;margin:0 0 4px}.pr1-aero-period p{margin:2px 0;font-size:.9rem}
+.pr1-aero-alert{border-left:6px solid #E30613;background:#fff6f6;padding:8px 12px;margin:8px 0;border-radius:4px}
+.pr1-aero-alert dl{display:grid;grid-template-columns:auto 1fr;gap:2px 10px}.pr1-aero-alert dt{font-weight:700}
+.pr1-aero-warn{color:#8a2a00;font-weight:700}
+body.pr1-aero-expanded .pr1-aero-app{position:fixed;inset:0;z-index:9999;margin:0;border-radius:0;overflow:auto}
+body.pr1-aero-expanded .pr1-aero-map{height:calc(100vh - 230px)}
+@media (max-width:600px){.pr1-aero-app{padding:8px;margin:10px -6px}.pr1-aero-map{height:58vh}.pr1-aero-now-main strong{font-size:2rem}}
+@media (prefers-reduced-motion:reduce){.pr1-aero-app *{transition:none!important;animation:none!important}}

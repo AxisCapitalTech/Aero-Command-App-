@@ -1,0 +1,12 @@
+# Segredos e artefatos
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+node_modules/
+vendor/
+*.log
+.DS_Store
+__pycache__/
+*.pyc

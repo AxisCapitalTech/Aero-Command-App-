@@ -1,0 +1,9 @@
+{"hoje":[
+ {"id":51234,"descricao":"Tempestade","severidade":"Perigo","data_inicio":"2026-10-22","hora_inicio":"10:00","data_fim":"2026-10-23","hora_fim":"10:00","riscos":"['Rajadas de vento', 'Queda de granizo']","instrucoes":["Evite áreas abertas"],"municipios":"Arapongas - PR (4101507), Apucarana - PR (4101408)","poligono":null},
+ {"id":51235,"descricao":"Acumulado de Chuva","severidade":"Perigo Potencial","data_inicio":"2026-10-22","hora_inicio":"00:00","data_fim":"2026-10-22","hora_fim":"23:00","riscos":[],"instrucoes":[],"municipios":"","poligono":{"type":"Polygon","coordinates":[[[-52.1,-23.6],[-51.8,-23.6],[-51.8,-23.2],[-52.1,-23.2],[-52.1,-23.6]]]}},
+ {"id":51236,"descricao":"Baixa Umidade","severidade":"Perigo Potencial","data_inicio":"2026-10-20","hora_inicio":"10:00","data_fim":"2026-10-21","hora_fim":"18:00","municipios":"Arapongas - PR (4101507)"},
+ {"id":51237,"descricao":"Tempestade","severidade":"Grande Perigo","data_inicio":"2026-10-22","hora_inicio":"10:00","data_fim":"2026-10-23","hora_fim":"10:00","encerrado":true,"municipios":"Arapongas - PR (4101507)"},
+ {"id":51238,"descricao":"Ventos Costeiros","severidade":"Perigo","data_inicio":"2026-10-22","hora_inicio":"10:00","data_fim":"2026-10-23","hora_fim":"10:00","municipios":"Arapongas - SP (3503406)"}
+],"futuro":[
+ {"id":51234,"descricao":"Duplicado","severidade":"Perigo","data_inicio":"2026-10-22","hora_inicio":"10:00","data_fim":"2026-10-23","hora_fim":"10:00","municipios":"Arapongas - PR (4101507)"}
+]}
